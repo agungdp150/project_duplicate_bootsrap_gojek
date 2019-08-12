@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+
+/* navbar set */
+
+.navbar {
+  padding: 3vh;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .7);
+}
+
+.dropdown {
+  background-color: #ffffff;
+}
+
+/* End of navbar set */
+
+/* Background Home */
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("https://lelogama.go-jek.com/component/hero/picture/HOME-PAGE.jpg") no-repeat center center;
+  /* background-size: cover; */
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+
+}
+
+.text-design h1 {
+  font-size: 48px;
+  font-weight: 700px;
+  line-height: 58px;
+  text-align: left;
+  /* display: block; */
+  color: aliceblue;
+  padding: 0px 0px 20px 0px;
+  font-weight: bold;
+}
+
+.text-design p {
+  font-size: 28px;
+  color: #F0B323;
+  font-weight: 900;
+  font-style: italic;
+  padding: 0px 400px 20px 0px;
+}
+
+.text-design a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0px 460px 0px 0px;
+  padding: 10px 32px 10px 32px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, .35);
+  font-size: 14px;
+}
+
+.text-design i {
+  margin: 10px 10px 10px -10px;
+}
+
+/* End of background set */
+
+/* New Logo Design */
+.pro-1 {
+  margin: 22vh 0vh;
+}
+
+.col img {
+  border-radius: 10px;
+}
+
+.col h2 {
+  padding: 70px 10px 10px 10px;
+  font-weight: 900;
+}
+
+.col p {
+  padding: 0px 10px 10px 10px;
+}
+
+.col a {
+  padding: 0px 10px 10px 10px;
+  color: #53B12A;
+}
+
+/* End new logo design */
+
+/* New feature */
+
+.carousel-inner img {
+  border-radius: 15px;
+} 
+
+/* End of new feature */
+
+
+/* Layanan Set */
+.pad-1 {
+  margin: 9vh 0vh;
+}
+
+.pad {
+  margin-bottom: 2rem;
+}
+
+.pad-1 .pad h2 {
+  font-weight: 900;
+}
+
+.pad-1 .pad h3 {
+  font-weight: 900;
+}
+
+.container .row .col {
+  margin: 10px;
+  /* border: #343a40 solid 1px; */
+}
+
+.container .col img {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+/* End layanan set */
+
+/* Makan dan belanja set */
+.colom-3 .container .row .col-md-3 {
+  margin: 10px;
+}
+
+.colom-3 .container img {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* End of makan dan belanja */
+
+/* Pembayaran set */
+.container .row .col-sm-2 {
+  margin: 10px;
+}
+
+/* End of pembayaran */
+
+/* footer set */
+.foot-1 {
+  background-color: #1C1D1D;
+  color: #ffffff;
+}
+
+.gambar {
+  margin-right: 30px;
+  /* border: solid 1px white; */
+}
+
+.gambar img {
+  padding-top: 19px;
+  width: 200px;
+}
+
+
+.kolom-1 {
+  padding-left: 5em;
+  /* border: solid 1px white; */
+}
+
+.kolom-1 a{
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.kolom-1 h5 {
+  font-size: 13px;
+}
+
+.kolom-2 {
+  padding-left: 5em;
+  /* border: solid 1px white; */
+}
+
+.kolom-2 h5 {
+  font-size: 13px;
+}
+
+.kolom-2 a{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: -15px;
+}
+
+.kolom-2 i {
+  margin-right: 20px;
+  text-align: left;
+}
+
+.kolom-3 {
+  padding-left: 5em;
+}
+
+.kolom-3 h5 {
+  font-size: 13px;
+}
+
+.kolom-3 img {
+  margin: 3px 0px;
+}
+
+.kolom-4 {
+  font-size: 13px;
+}
+
+.dropup button {
+  margin-left: 71rem;
+  background-color: #1C1D1D;
+  border-radius: 10px;
+}
+
+.kolom-4 {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.kolom-4 a{
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.kolom-4 h5{
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.kolom-5 {
+  padding-left: 5em;
+  margin-left: -35px;
+  /* border: solid 1px white; */
+}
+
+.kolom-5 h5 {
+  font-size: 13px;
+}
+
+.kolom-5 a{
+  padding: 0px 20px;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: -15px;
+}
+
+.kolom-5 i {
+  padding-right: 20px;
+  text-align: left;
+}
+
+.kolom-6 {
+  margin-left: 120px;
+}
+
+.kolom-7 {
+  padding-left: 90px;
+}
+
+.kolom-7 h5 {
+  font-size: 13px;
+}
+
+.kolom-7 a{
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* end of footer set */
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+
+/* navbar set */
+
+.navbar {
+  padding: 3vh;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+}
+
+.dropdown {
+  background-color: #ffffff;
+}
+
+/* End of navbar set */
+
+/* Semangat baru set */
+.text-1 {
+  padding-top: 150px;
+  margin-right: 10px;
+  line-height: 27px;
+}
+
+.text-2 {
+  padding-top: 150px;
+  margin-right: 100px;
+}
+
+.text-2 img {
+  border-radius: 15px;
+  margin: 50px 0px 0px 20px;
+}
+
+/* End of semangat baru set */
+
+/* perjalanan gojek */
+
+.brack {
+  padding: 10vh;
+  /* border: solid 1px black; */
+}
+
+.text-3 img {
+  border-radius: 15px;
+  margin-left: -50px;
+}
+
+.text-4 {
+  margin-left: -400px;
+  line-height: 30px;
+}
+
+/* End of perjalanan gojek */
+
+/* tiga pilar gojek */
+ .text-5 {
+   padding-bottom: 60px;
+ }
+
+.text-5 h2 {
+  font-size : 45px;
+}
+
+/* End of tiga pilar gojek */
+
+/* Layanan */
+.text-7 img {
+  border-radius: 20px;
+}
+
+.brack-1 {
+  padding-top: 10vh;
+}
+
+/* End of layanan */
+
+/* Penghargaan Set */
+.brack-2 {
+  padding-bottom: 13vh;
+}
+
+.carousel-inner img {
+  border-radius: 15px;
+}
+
+/* End of penghargaan set */
+
+
+
+/* footer set */
+.foot-1 {
+  background-color: #1C1D1D;
+  color: #ffffff;
+}
+
+.gambar {
+  margin-right: 30px;
+  /* border: solid 1px white; */
+}
+
+.gambar img {
+  padding-top: 19px;
+  width: 200px;
+}
+
+
+.kolom-1 {
+  padding-left: 5em;
+  /* border: solid 1px white; */
+}
+
+.kolom-1 a {
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.kolom-1 h5 {
+  font-size: 13px;
+}
+
+.kolom-2 {
+  padding-left: 5em;
+  /* border: solid 1px white; */
+}
+
+.kolom-2 h5 {
+  font-size: 13px;
+}
+
+.kolom-2 a {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: -15px;
+}
+
+.kolom-2 i {
+  margin-right: 20px;
+  text-align: left;
+}
+
+.kolom-3 {
+  padding-left: 5em;
+}
+
+.kolom-3 h5 {
+  font-size: 13px;
+}
+
+.kolom-3 img {
+  margin: 3px 0px;
+}
+
+.kolom-4 {
+  font-size: 13px;
+}
+
+.dropup button {
+  margin-left: 71rem;
+  background-color: #1C1D1D;
+  border-radius: 10px;
+}
+
+.kolom-4 {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.kolom-4 a {
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.kolom-4 h5 {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.kolom-5 {
+  padding-left: 5em;
+  margin-left: -35px;
+  /* border: solid 1px white; */
+}
+
+.kolom-5 h5 {
+  font-size: 13px;
+}
+
+.kolom-5 a {
+  padding: 0px 20px;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: -15px;
+}
+
+.kolom-5 i {
+  padding-right: 20px;
+  text-align: left;
+}
+
+.kolom-6 {
+  margin-left: 120px;
+}
+
+.kolom-7 {
+  padding-left: 90px;
+}
+
+.kolom-7 h5 {
+  font-size: 13px;
+}
+
+.kolom-7 a {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* end of footer set */
+
+
+/* End of set */
